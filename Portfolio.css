@@ -41,18 +41,45 @@ a {
     border: 0;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px ;
+    padding: 15px 35px;
 }
+
 /* header related style */
-.header{
+.header {
     background: #FFF8F3;
+    background-image: url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .prifile-pic{
-    width: 500px;
 
+.banner .prifile-pic {
+    width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color:  #474747;
+    margin-bottom: 0px;
+}
+
+.banner-header {
+    font-size: 85px;
+    font-weight: 700;
+    color:  #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.banner-description{
+    margin-bottom: 30px;
+}
+.banner-content{
+    max-width: 500px;
 }
